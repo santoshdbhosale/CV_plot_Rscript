@@ -6,7 +6,7 @@ library(palmerpenguins)
 library(randomNames)
 library(tidyverse)
 
-df = read.delim(file = 'cv_R_symb.tsv')
+df = read.delim(file = 'cv_R_symb_template.tsv')
 View(df)
 
 plt <- ggplot(df, aes(x = Protein_abundance_rank, y = Coefficient_of_variation)) +
@@ -64,4 +64,4 @@ plt <- plt +
   ) 
 plt
 
-plt + ggplot2::coord_cartesian(xlim=c(0, 1500), ylim=c(0, 200))
+plt + ggplot2::coord_cartesian(xlim=c(0, 500), ylim=c(0, 150))
