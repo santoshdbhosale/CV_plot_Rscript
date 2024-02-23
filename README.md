@@ -1,4 +1,4 @@
-# R scripts for proteomics data analysis
+# R scripts for proteomics and/or omics data analysis
 The database search engine analysis for a typical quantitative proteomics experiment yields a matrix of rows (identified protein groups) and columns (conditions; healthy and diseased, time-series or immunoprecipitation experiments, and so on). The downstream analysis often includes data quality assessment and statistical analysis (to identify differentially expressed proteins). Furthermore, machine learning and functional analysis are used to make biological interpretations and generating new hypotheses.
 This repository (work in progress) will host a collection of R scripts used in proteomics and/or omics data analysis. Each folder includes following files to regenerate specific plot.
 - R script
