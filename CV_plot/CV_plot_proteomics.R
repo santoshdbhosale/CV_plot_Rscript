@@ -1,6 +1,7 @@
 install.packages('ggrepel')
 install.packages('palmerpenguins')
 install.packages('randomNames')
+install.packages('tidyverse')
 library(ggrepel)
 library(palmerpenguins)
 library(randomNames)
