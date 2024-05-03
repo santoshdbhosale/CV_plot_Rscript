@@ -10,19 +10,19 @@ library(tidyverse)
 df = read.delim(file = 'cv_R_symb_template.tsv')
 View(df)
 
-plt <- ggplot(df, aes(x = Protein_abundance_rank, y = Coefficient_of_variation)) +
+plt1 <- ggplot(df, aes(x = Protein_abundance_rank, y = Coefficient_of_variation)) +
   geom_point(
-    aes(color = CVs, shape = CVs),
+    aes(color = CVs),
     size = 2.75, 
     alpha = 1 # It's nice to add some transparency because there may be overlap.
   ) +
   # Use custom colors
   scale_color_manual(
-    values = c( "#fdb462", "#386cb0", "#7fc97f")
-  ) 
-plt
+    values = c( "#fdb462", "#386cb0", "#7fc97f","#990000")
+  ) + geom_hline(yintercept = 20, linetype='dashed', size=2)
+plt1
 
-plt <- plt + 
+plt1 <- plt1 + 
   # Add axes labels, title, and subtitle
   labs(
     title = "Coefficient of variation plot",
@@ -63,6 +63,7 @@ plt <- plt +
     axis.title = element_text(size = 18),
     axis.ticks = element_blank(),
   ) 
-plt
+plt1
 
-plt + ggplot2::coord_cartesian(xlim=c(0, 500), ylim=c(0, 150))
+CV = plt1 + ggplot2::coord_cartesian(xlim=c(0, 500), ylim=c(0, 200))
+CV
