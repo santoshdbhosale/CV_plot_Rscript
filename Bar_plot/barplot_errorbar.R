@@ -1,6 +1,7 @@
-esquisser()
-
+# install ggplot and load the library
+install.packages('ggplot2')
 library(ggplot2)
+# read the dataframe
 bar =read.delim('barP.tsv')
 p = ggplot(bar) +
  aes(x = Samples, y = Protein_groups, fill = Reprod) +
