@@ -16,4 +16,4 @@ This repository (work in progress) will host a collection of R scripts used in p
 - [pheatmap: create annotated heatmaps in R (detailed guide)](https://www.reneshbedre.com/blog/heatmap-with-pheatmap-package-r.html#add-annotations)
 - [Making a heatmap in R with the pheatmap package](https://davetang.org/muse/2018/05/15/making-a-heatmap-in-r-with-the-pheatmap-package/)
 
-**Barplot:** R script for creating a bar chart with omics data. For this analysis, proteomics data generated inhouse was used to generate the bar plot with error bars to assess the precise measurement.
+**Barplot:** R script for creating a bar chart with omics data. This analysis used in-house proteomics data to generate the bar plot with error bars to assess the precise measurement.
