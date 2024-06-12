@@ -19,3 +19,5 @@ This repository (work in progress) will host a collection of R scripts used in p
 **Barplot:** R script for creating a bar chart with omics data. This analysis used in-house proteomics data to generate the bar plot with error bars to assess the precise measurement.
 
 **RankPlot:** R scirpt for creating a protein rank abundance curve. 
+
+**BoxPlot:** R scirpt used for creating box plots. This graph helps in elucidating the distribution of expression values for proteins (in this case coefficent of variation values assocaited with different LC-MS/MS gradients.
