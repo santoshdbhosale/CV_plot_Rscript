@@ -17,3 +17,5 @@ This repository (work in progress) will host a collection of R scripts used in p
 - [Making a heatmap in R with the pheatmap package](https://davetang.org/muse/2018/05/15/making-a-heatmap-in-r-with-the-pheatmap-package/)
 
 **Barplot:** R script for creating a bar chart with omics data. This analysis used in-house proteomics data to generate the bar plot with error bars to assess the precise measurement.
+
+**RankPlot:** R scirpt for creating a protein rank abundance curve. 
