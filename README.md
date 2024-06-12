@@ -22,4 +22,4 @@ This repository (work in progress) will host a collection of R scripts used in p
 
 **BoxPlot:** R scirpt used for creating box plots. This graph helps in elucidating the distribution of expression values for proteins (in this case coefficent of variation values assocaited with different LC-MS/MS gradients.
 
-> The data used for plotting box plot, rank plot and CV plot was derived from our [ASTRAL](https://www.biorxiv.org/content/10.1101/2024.04.26.591396v1.full) preprint. 
+> The data used for plotting **box plot, rank plot and CV plot** was derived from our [Astral](https://www.biorxiv.org/content/10.1101/2024.04.26.591396v1.full) preprint. 
