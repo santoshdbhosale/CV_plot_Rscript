@@ -1,9 +1,11 @@
 # R scripts for proteomics data analysis
 The protein database search engine analysis for a typical quantitative proteomics experiment yields a matrix of rows (identified protein groups) and columns (conditions; healthy and diseased, time-series or immunoprecipitation experiments, and so on). The downstream analysis often includes data quality assessment and statistical analysis (to identify differentially expressed proteins). Furthermore, machine learning and functional analysis are used for biological interpretations and hypothesis generation.
-This repository (work in progress) will host a collection of R scripts used in proteomics and/or omics data analysis that will help in the preliminary assessment of the datasets. Briefly, this repo can help in identifying patterns and inconsistencies associated with the dataset and is used at various phases of the data analysis process. Each folder includes the following files to regenerate specific plots.
+This repository (work in progress) will host a collection of R scripts used in proteomics and/or omics data analysis that will help in the preliminary assessment of the datasets. Briefly, this repo can help in identifying patterns and inconsistencies associated with the dataset and is used at various phases of the data analysis process. Each folder includes the following files to regenerate specific plots. 
 - R script
 - Data frame template
 - Figure
+
+These files will enable an intuitive graphical representation of the complex biological data. 
 
 **Coefficient of variation (CV) plot:** R script for creating a CV plot with proteomics data.
 > The original code was modified from the [r-graph-gallery](https://r-graph-gallery.com/web-scatterplot-and-ggrepel.html) scatter plot chart type to plot CV graph.
