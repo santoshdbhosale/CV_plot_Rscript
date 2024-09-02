@@ -24,4 +24,4 @@ These files will enable an intuitive graphical representation of the complex bio
 
 **BoxPlot:** R script used for creating box plots. This graph helps in elucidating the distribution of expression values for proteins (in this case coefficient of variation values associated with different LC-MS/MS gradients.
 
-> The data used for generating **box plot, rank plot and CV plot** was derived from our [Astral](https://www.biorxiv.org/content/10.1101/2024.04.26.591396v1.full) preprint. 
+> The data used for generating **box plot, rank plot and CV plot** was derived from our [Astral](https://pubs.acs.org/doi/10.1021/acs.jproteome.4c00384) pubication. 
